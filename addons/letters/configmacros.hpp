@@ -1,7 +1,7 @@
 #define LETTER_OBJECT(LETTER,CASE,SIZE) \
     class Alphabet_##LETTER##_##CASE##_##SIZE : Alphabet_base \
         {\
-            author="Misconduct";\
+            author="a26mike";\
             displayName=##LETTER##_##CASE##_##SIZE;\
             icon="iconObject_1x1";\
             scope = 2;\

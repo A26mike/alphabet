@@ -2,7 +2,7 @@ class CfgPatches
 {
     class Alphabet
     {
-        author="Misconduct";
+        author="a26mike";
         name="alphabet";
         url="https://www.arma3.com";
         requiredAddons[]={A3_Structures_F_Civ};
