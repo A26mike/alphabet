@@ -12,13 +12,13 @@ How to use
 
     LETTER_OBJECT(a,lower,100m)};
 
-    parameters
+    parameters (lowercase only)
         letter:
-            a-z -(lowercase only)
-            a
+            a-z 
         string case: 
-            upper or lower (lowercase only)
+            upper  
             lower
+            special
         size:
             size follwed by m 
             100m
@@ -30,11 +30,10 @@ class CfgVehicles
     class Statues_base_F;
     class Alphabet_base : Statues_base_F
     {
-        author="Misconduct";
+        author="a26mike";
         mapSize = 50.0;
     };
     
-    //lowercase letter,)
 
     //uppercase
     LETTER_OBJECT(a,upper,100m)};
@@ -63,4 +62,39 @@ class CfgVehicles
     LETTER_OBJECT(x,upper,100m)};
     LETTER_OBJECT(y,upper,100m)};
     LETTER_OBJECT(z,upper,100m)};
+
+    //special numbers
+    LETTER_OBJECT(zero,special,100m)};
+    LETTER_OBJECT(one,special,100m)};
+    LETTER_OBJECT(two,special,100m)};
+    LETTER_OBJECT(three,special,100m)};
+    LETTER_OBJECT(four,special,100m)};
+    LETTER_OBJECT(five,special,100m)};
+    LETTER_OBJECT(six,special,100m)};
+    LETTER_OBJECT(seven,special,100m)};
+    LETTER_OBJECT(eight,special,100m)};
+    LETTER_OBJECT(nine,special,100m)};
+
+    //special_chars
+    LETTER_OBJECT(nam_a,special,100m)};
+    LETTER_OBJECT(nam_m,special,100m)};
+    LETTER_OBJECT(nam_n,special,100m)};
+    LETTER_OBJECT(and,special,100m)};
+    LETTER_OBJECT(apostrophe,special,100m)};
+    LETTER_OBJECT(asterisk,special,100m)};
+    LETTER_OBJECT(at,special,100m)};
+    LETTER_OBJECT(backslash,special,100m)};
+    LETTER_OBJECT(curly_left,special,100m)};
+    LETTER_OBJECT(curly_right,special,100m)};
+    LETTER_OBJECT(dash,special,100m)};
+    LETTER_OBJECT(equal_sign ,special,100m)};
+    LETTER_OBJECT(exclamation_point,special,100m)};
+    LETTER_OBJECT(greater_than,special,100m)};
+    LETTER_OBJECT(money,special,100m)};
+    LETTER_OBJECT(percent,special,100m)};
+    LETTER_OBJECT(period,special,100m)};
+    LETTER_OBJECT(question,special,100m)};
+    LETTER_OBJECT(quote,special,100m)};
+    LETTER_OBJECT(sharp,special,100m)};
+    LETTER_OBJECT(star,special,100m)};
 };

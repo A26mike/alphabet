@@ -18,4 +18,9 @@ class CfgEditorSubcategories
 	{
 		displayName = "Lower case"; // Name visible in the list
 	};
+
+	class EdSubcat_specialcase // Category class, you point to it in editorSubcategory property
+	{
+		displayName = "Numbers/special chars"; // Name visible in the list
+	};
 };

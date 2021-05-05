@@ -2,7 +2,7 @@
     class Alphabet_##LETTER##_##CASE##_##SIZE : Alphabet_base \
         {\
             author="a26mike";\
-            displayName=##LETTER##_##CASE##_##SIZE;\
+            displayName=##LETTER SIZE;\
             icon="iconObject_1x1";\
             scope = 2;\
             scopeCurator = 2;\
